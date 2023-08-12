@@ -19,3 +19,4 @@ brew install protoc-gen-go
 # generate hello.proto file using following command - It will create go code under 
  cmd : protoc --go_opt=module=my-protobuf --go_out=. ./proto/basic/*.proto
 
+# go run main.go 
